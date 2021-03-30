@@ -20,5 +20,16 @@ module.exports = {
             }
         }
         //console.log(games)
+    },
+    getName:function(id){
+      
+            for (gameIdx in games){
+                if (games[gameIdx].appid == id){
+                    return games[gameIdx]
+                   
+                }
+            }
+            //console.log(games)
+        
     }
 }

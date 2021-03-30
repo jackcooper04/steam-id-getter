@@ -18,3 +18,11 @@ console.log(steamId.getId('Subnautica'));
 ```json
 { appid: 264710, name: 'Subnautica' }
 ```
+
+or
+```js 
+const steamId = require('steam-id-getter');
+
+console.log(steamId.getName(264710));
+```
+
