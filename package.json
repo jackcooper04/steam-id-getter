@@ -1,0 +1,16 @@
+{
+  "name": "steam-id-getter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "install": "node getGames.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jack Cooper",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "fs-extra": "^9.1.0"
+  }
+}
