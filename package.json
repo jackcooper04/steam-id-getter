@@ -1,6 +1,6 @@
 {
   "name": "steam-id-getter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "repository":"https://github.com/jackcooper04/steam-id-getter",
   "main": "main.js",

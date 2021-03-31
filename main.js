@@ -13,6 +13,7 @@ const games = require('./games.json').applist.apps;
 
 module.exports = {
     getId:function(game){
+        game = game.replace(/,/g,' ');
         for (gameIdx in games){
             if (games[gameIdx].name == game){
                 return games[gameIdx]
@@ -22,7 +23,7 @@ module.exports = {
         //console.log(games)
     },
     getName:function(id){
-      
+
             for (gameIdx in games){
                 if (games[gameIdx].appid == id){
                     return games[gameIdx]
